@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IMAGE_NAME=jecklgamis/cucumber-jvm-java-example
+IMAGE_NAME=marvin-ojoye-infinit-cx/BDDCucumberJ8Selehnium
 IMAGE_TAG=latest
 
 JAVA_OPTS=${JAVA_OPTS:-""}

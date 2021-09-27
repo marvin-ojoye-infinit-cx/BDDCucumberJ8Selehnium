@@ -1,4 +1,4 @@
-# %NAME% Changelog
+# BDDCucumberJ8Selehnium Changelog
 
 ## [Unreleased]
 

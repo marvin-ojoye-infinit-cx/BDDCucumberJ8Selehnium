@@ -1,4 +1,4 @@
-IMAGE_NAME:=jecklgamis/cucumber-jvm-java-example
+IMAGE_NAME:=marvin-ojoye-infinit-cx/BDDCucumberJ8Selehnium
 IMAGE_TAG:=$(shell git rev-parse HEAD)
 default:
 	cat ./Makefile
@@ -15,7 +15,7 @@ push:
 	 docker push $(IMAGE_NAME):$(IMAGE_TAG)
 	 docker push $(IMAGE_NAME):latest
 tag:
-	 git tag -m "cucumber-jvm-java-example-v$(IMAGE_TAG)" -a "v$(IMAGE_TAG)"
+	 git tag -m "BDDCucumberJ8Selehnium-v$(IMAGE_TAG)" -a "v$(IMAGE_TAG)"
 	 git push --tags
 
 
